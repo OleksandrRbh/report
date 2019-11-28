@@ -1,0 +1,28 @@
+.page-main {
+  margin: 0;
+  padding: 0;
+  padding-top: 34px;  
+  padding-right: 62px;
+  padding-left: 62px;
+  box-sizing: border-box;
+
+  &__sub-title { 
+    position: relative; 
+    margin: 0;  
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: $grayblue-text;
+  
+    &::before {
+      position: absolute;
+      content: "";
+      top: 16px;
+      left: -34px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #2AC9A1;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.titlebox {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titlebox__image {
+  width: 446px;
+  height: 180px;
+  margin-bottom: 68px;  
+}
+
+.titlebox__heading {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 66px;
+  color: $grayblue-text;    
+}
+
+.titlebox__descr {
+  margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: $grayblue-text;
+}
+
+.titlebox__link {
+  margin-bottom: 64px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46px;
+  color: $link-text;
+  text-decoration: none;
+}
+
+.titlebox__date {
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: $grayblue-text;
+}

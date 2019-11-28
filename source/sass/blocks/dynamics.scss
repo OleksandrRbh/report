@@ -1,0 +1,76 @@
+.dynamics__title {
+  margin-bottom: 16px;  
+}
+
+.dynamics__description {
+  margin: 0;
+  margin-bottom: 76px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.dynamics__table {
+  width: 100%;
+  border-collapse: collapse;  
+}
+
+.dynamics__table-row:nth-of-type(2n) {
+  background-color: rgba(2, 136, 209, 0.05);
+}
+
+.dynamics__table-heading {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: $grayblue-text;
+}
+
+.dynamics__table-data {
+  height: 60px;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  color: $grayblue-text;
+  text-align: center;
+  border: 2px solid #C2CFE0;
+
+  &--head {
+    width: 280px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 56px;
+  }
+}
+
+.dynamics__steps {
+  display: inline-block;
+  width: 62px;
+  height: 28px;
+  margin-left: 40px;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 6px; 
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box; 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: $lightgray-text;
+  border-radius: 4px;
+
+  &--up {
+    background-color: $green;
+  }
+
+  &--down {
+    background-color: $red;
+  }
+}
+
+
