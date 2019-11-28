@@ -1,18 +1,19 @@
 .dynamics__title {
-  margin-bottom: 16px;  
+  margin-bottom: 8px;
 }
 
 .dynamics__description {
   margin: 0;
-  margin-bottom: 76px;
+  margin-bottom: 5px;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .dynamics__table {
   width: 100%;
-  border-collapse: collapse;  
+  margin-bottom: 30px;
+  border-collapse: collapse;
 }
 
 .dynamics__table-row:nth-of-type(2n) {
@@ -20,49 +21,49 @@
 }
 
 .dynamics__table-heading {
+  height: 30px;
+  box-sizing: border-box;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 12px;
+  line-height: 14px;
   color: $grayblue-text;
 }
 
 .dynamics__table-data {
-  height: 60px;
+  height: 30px;
   box-sizing: border-box;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 48px;
+  font-size: 12px;
+  line-height: 24px;
   color: $grayblue-text;
   text-align: center;
-  border: 2px solid #C2CFE0;
+  border: 1px solid #C2CFE0;
 
   &--head {
-    width: 280px;
+    width: 140px;
     font-weight: 500;
     text-transform: uppercase;
     text-align: left;
-    padding-left: 56px;
+    padding-left: 28px;
   }
 }
 
 .dynamics__steps {
   display: inline-block;
-  width: 62px;
-  height: 28px;
-  margin-left: 40px;
+  margin-left: 20px;
   padding-top: 2px;
-  padding-right: 6px;
+  padding-right: 5px;
   padding-bottom: 2px;
-  padding-left: 6px; 
+  padding-left: 4px;
   text-align: center;
   vertical-align: middle;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
   background-color: $lightgray-text;
-  border-radius: 4px;
+  border-radius: 2px;
 
   &--up {
     background-color: $green;
@@ -73,4 +74,40 @@
   }
 }
 
+.dynamics__period-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
 
+.dynamics__period-item {
+  position: relative;
+  margin-right: 23px;
+  padding-left: 23px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: $grayblue-text;
+
+  &:last-of-type {
+    margin-right: 0px;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: 4px;
+    width: 13px;
+    height: 14px;
+  }
+
+  &--last::before {
+    background-color: #1DE9B6;
+  }
+
+  &--compared::before {
+    background-color: #0288D1;
+  }
+}
