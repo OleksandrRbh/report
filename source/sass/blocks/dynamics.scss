@@ -14,6 +14,9 @@
   width: 100%;
   margin-bottom: 30px;
   border-collapse: collapse;
+  background-image: url("../../img/watermark-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .dynamics__table-row:nth-of-type(2n) {
@@ -111,3 +114,9 @@
     background-color: #0288D1;
   }
 }
+
+.dynamics__chart {  
+  width: 512px;
+  height: 212px;
+}
+

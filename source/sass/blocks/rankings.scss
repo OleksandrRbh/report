@@ -1,0 +1,139 @@
+.rankings {
+  display: flex;
+  flex-direction: column;
+}
+
+.rankings__title {
+  margin-bottom: 8px;
+}
+
+.rankings__description {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.rankings__list {
+  align-self: flex-start;  
+  display: table;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.rankings__item {
+  display: table-row;
+}
+
+.rankings__feature {
+  display: table-cell;
+  width: 177px;
+  height: 25px;
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: $grayblue-text;
+}
+
+.rankings__value {
+  position: relative;
+  display: table-cell;  
+  height: 25px;
+  vertical-align: bottom;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: $grayblue-text;
+  text-decoration: none;
+}
+
+.rankings__table {
+  width: 100%;  
+  border-collapse: collapse;
+  font-size: 10px;
+  line-height: 12px;
+
+  &--begin {
+    margin-bottom: 37px;
+    background-image: url("../../img/watermark-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.rankings__table-row:nth-of-type(2n-1) {
+  background-color: rgba(2, 136, 209, 0.05);
+}
+
+.rankings__table-heading {
+  height: 45px;
+  box-sizing: border-box;
+  font-weight: 500;  
+  color: $grayblue-text;
+}
+
+.rankings__table-data {
+  height: 45px;
+  box-sizing: border-box;
+  font-weight: normal;  
+  color: $grayblue-text;
+  text-align: center;  
+
+  &--head {    
+    width: 31px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;    
+  }
+}
+
+.rankings__table-link {
+  color: $link-text;
+  text-decoration: none;
+}
+
+.rankings__table-pages--feature {
+  text-align: left;
+  width: 93px;
+}
+
+.rankings__table-pages--value {
+  text-align: left;
+}
+
+.rankings__table-url--feature {
+  text-align: left;
+  width: 93px;
+}
+
+.rankings__table-url--value {
+  text-align: left;
+}
+
+.rankings__browser-open {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  padding-left: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: $link-text;
+  text-decoration: none;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background-image: url("../../img/Vector.png");
+    background-position: center;
+    background-repeat: no-repeat;    
+  }
+}
