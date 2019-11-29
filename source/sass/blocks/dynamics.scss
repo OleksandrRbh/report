@@ -1,20 +1,21 @@
 .dynamics__title {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .dynamics__description {
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .dynamics__table {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   border-collapse: collapse;
   background-image: url("../../img/watermark-logo.png");
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -24,49 +25,49 @@
 }
 
 .dynamics__table-heading {
-  height: 30px;
+  height: 60px;
   box-sizing: border-box;
   font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 28px;
   color: $grayblue-text;
 }
 
 .dynamics__table-data {
-  height: 30px;
+  height: 60px;
   box-sizing: border-box;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 48px;
   color: $grayblue-text;
   text-align: center;
   border: 1px solid #C2CFE0;
 
   &--head {
-    width: 140px;
+    width: 280px;
     font-weight: 500;
     text-transform: uppercase;
     text-align: left;
-    padding-left: 28px;
+    padding-left: 56px;
   }
 }
 
 .dynamics__steps {
   display: inline-block;
-  margin-left: 20px;
-  padding-top: 2px;
-  padding-right: 5px;
-  padding-bottom: 2px;
-  padding-left: 4px;
+  margin-left: 40px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 8px;
   text-align: center;
   vertical-align: middle;
   box-sizing: border-box;
   font-weight: 500;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 20px;
+  line-height: 24px;
   color: #ffffff;
   background-color: $lightgray-text;
-  border-radius: 2px;
+  border-radius: 4px;
 
   &--up {
     background-color: $green;
@@ -86,11 +87,11 @@
 
 .dynamics__period-item {
   position: relative;
-  margin-right: 23px;
-  padding-left: 23px;
+  margin-right: 46px;
+  padding-left: 46px;
   font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 28px;
   color: $grayblue-text;
 
   &:last-of-type {
@@ -100,10 +101,10 @@
   &::before {
     position: absolute;
     content: "";
-    top: -1px;
-    left: 4px;
-    width: 13px;
-    height: 14px;
+    top: -2px;
+    left: 8px;
+    width: 26px;
+    height: 28px;
   }
 
   &--last::before {
@@ -116,7 +117,7 @@
 }
 
 .dynamics__chart {  
-  width: 512px;
-  height: 212px;
+  width: 1024px;
+  height: 424px;
 }
 

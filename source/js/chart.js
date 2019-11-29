@@ -35,7 +35,7 @@ Highcharts.chart('container', {
       title: {
           text: 'Number of keywords',
           style: {
-            "font-size": "10px",
+            "font-size": "20px",
             "font-weight": "normal",
             "font-family": "Roboto",
             "color": "#C2CFE0"
@@ -58,7 +58,7 @@ Highcharts.chart('container', {
           pointPadding: 0,
           pointMargin: 0,
           borderWidth: 0,
-          pointWidth: 30,
+          pointWidth: 60,
       }
   },
   series: [{

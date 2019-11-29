@@ -4,15 +4,15 @@
 }
 
 .rankings__title {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .rankings__description {
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .rankings__list {
@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .rankings__item {
@@ -30,23 +30,23 @@
 
 .rankings__feature {
   display: table-cell;
-  width: 177px;
-  height: 25px;
+  width: 354px;
+  height: 50px;
   vertical-align: bottom;
   font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 28px;
   color: $grayblue-text;
 }
 
 .rankings__value {
   position: relative;
   display: table-cell;  
-  height: 25px;
+  height: 50px;
   vertical-align: bottom;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 28px;
   color: $grayblue-text;
   text-decoration: none;
 }
@@ -54,12 +54,13 @@
 .rankings__table {
   width: 100%;  
   border-collapse: collapse;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 20px;
+  line-height: 24px;
 
   &--begin {
-    margin-bottom: 37px;
+    margin-bottom: 74px;
     background-image: url("../../img/watermark-logo.png");
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -70,21 +71,21 @@
 }
 
 .rankings__table-heading {
-  height: 45px;
+  height: 90px;
   box-sizing: border-box;
   font-weight: 500;  
   color: $grayblue-text;
 }
 
 .rankings__table-data {
-  height: 45px;
+  height: 90px;
   box-sizing: border-box;
   font-weight: normal;  
   color: $grayblue-text;
   text-align: center;  
 
   &--head {    
-    width: 31px;
+    width: 62px;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;    
@@ -98,7 +99,7 @@
 
 .rankings__table-pages--feature {
   text-align: left;
-  width: 93px;
+  width: 186px;
 }
 
 .rankings__table-pages--value {
@@ -107,7 +108,7 @@
 
 .rankings__table-url--feature {
   text-align: left;
-  width: 93px;
+  width: 186px;
 }
 
 .rankings__table-url--value {
@@ -118,10 +119,10 @@
   position: relative;
   display: block;
   margin-left: auto;
-  padding-left: 16px;
+  padding-left: 32px;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 28px;
   color: $link-text;
   text-decoration: none;
 
@@ -130,8 +131,8 @@
     content: "";
     top: 0;
     left: 0;
-    width: 12px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
     background-image: url("../../img/Vector.png");
     background-position: center;
     background-repeat: no-repeat;    
