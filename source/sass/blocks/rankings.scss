@@ -16,7 +16,7 @@
 }
 
 .rankings__list {
-  align-self: flex-start;  
+  align-self: flex-start;
   display: table;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@
 
 .rankings__value {
   position: relative;
-  display: table-cell;  
+  display: table-cell;
   height: 50px;
   vertical-align: bottom;
   font-weight: normal;
@@ -52,7 +52,7 @@
 }
 
 .rankings__table {
-  width: 100%;  
+  width: 100%;
   border-collapse: collapse;
   font-size: 20px;
   line-height: 24px;
@@ -73,22 +73,22 @@
 .rankings__table-heading {
   height: 90px;
   box-sizing: border-box;
-  font-weight: 500;  
+  font-weight: 500;
   color: $grayblue-text;
 }
 
 .rankings__table-data {
   height: 90px;
   box-sizing: border-box;
-  font-weight: normal;  
+  font-weight: normal;
   color: $grayblue-text;
-  text-align: center;  
+  text-align: center;
 
-  &--head {    
+  &--head {
     width: 62px;
     font-weight: 500;
     text-transform: uppercase;
-    text-align: center;    
+    text-align: center;
   }
 }
 
@@ -129,12 +129,12 @@
   &::before {
     position: absolute;
     content: "";
-    top: 0;
+    top: 2;
     left: 0;
     width: 24px;
     height: 24px;
-    background-image: url("../../img/Vector.png");
+    background-image: url("../../img/vector.png");
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
   }
 }

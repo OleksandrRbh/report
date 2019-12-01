@@ -7,7 +7,8 @@ Highcharts.chart('container', {
     }
   },
   chart: {
-    type: 'column',    
+    type: 'column',
+    marginTop: '20',
   },
   title: {
     text: ''
@@ -18,32 +19,32 @@ Highcharts.chart('container', {
   subtitle: {
     text: ''
   },
-  xAxis: {       
+  xAxis: {
     categories: [
-      'TOP 1',          
+      'TOP 1',
       'TOP 3',
       'TOP 10',
       'TOP 30',
       'TOP 50',
       'TOP 100'
     ],
-    labels: {      
+    labels: {
       style: {
         'font-weight': 'normal',
         'font-size': '24px',
         'line-height': '28px',
         'color': '#37474F',
-        'fontFamily': 'Roboto',           
-      },              
+        'fontFamily': 'Roboto',
+      },
     },
     crosshair: true,
     offset: 25,
-    lineWidth: 0,    
+    lineWidth: 0,
   },
   yAxis: {
     lineWidth: 0.5,
     gridLineWidth: 1,
-    min: 0,          
+    min: 0,
     title: {
       x: -10,
       text: 'Number of keywords',
@@ -54,15 +55,15 @@ Highcharts.chart('container', {
         "color": "#C2CFE0"
       }
     },
-    labels: { 
+    labels: {
       x: -20,
-      y: 6,      
-      style: {            
+      y: 6,
+      style: {
         'font-weight': 'normal',
         'font-size': '24px',
         'line-height': '28px',
         'color': '#C2CFE0',
-        'fontFamily': 'Roboto',                    
+        'fontFamily': 'Roboto',
       }
     },
   },
@@ -74,18 +75,18 @@ Highcharts.chart('container', {
     shared: true,
     useHTML: true
   },
-  plotOptions: {    
+  plotOptions: {
     column: {
       groupPadding: 0.89,
       pointPadding: 0,
       pointMargin: 0,
       borderWidth: 0,
-      pointWidth: 60,          
+      pointWidth: 60,
     }
   },
-  series: [{      
+  series: [{
     name: 'Last',
-    data: [2600, 2000, 3600, 3400, 2200, 1900],      
+    data: [2600, 2000, 3600, 3400, 2200, 1900],
     color: {
       linearGradient: {
         x1: 0,
@@ -98,19 +99,19 @@ Highcharts.chart('container', {
         [1, 'rgba(29, 233, 182, 0.102)']
       ]
     },
-    showInLegend: false,      
+    showInLegend: false,
     dataLabels: {
       crop: false,
       overflow: 'none',
       "align": "center",
-      "enabled": true,      
+      "enabled": true,
       "borderColor": "",
       "rotation": 0,
       "style": {
-        'fontFamily': 'Roboto',          
+        'fontFamily': 'Roboto',
         'fontWeight': 'normal',
         'fontSize': '24px',
-        'line-height': '28px',          
+        'line-height': '28px',
         'color': '#37474F',
       }
     },
@@ -138,13 +139,13 @@ Highcharts.chart('container', {
       "borderColor": "",
       "rotation": 0,
       "style": {
-        'fontFamily': 'Roboto',          
+        'fontFamily': 'Roboto',
         'fontWeight': 'normal',
         'fontSize': '24px',
-        'line-height': '28px',          
+        'line-height': '28px',
         'color': '#37474F',
       }
-    }, 
+    },
   }]
-  
+
 });
