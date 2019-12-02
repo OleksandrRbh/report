@@ -104,7 +104,7 @@ Highcharts.chart('container', {
       crop: false,
       overflow: 'none',
       "align": "center",
-      "enabled": true,
+      "enabled": false,
       "borderColor": "",
       "rotation": 0,
       "style": {
@@ -135,7 +135,7 @@ Highcharts.chart('container', {
       crop: false,
       overflow: 'none',
       "align": "center",
-      "enabled": true,
+      "enabled": false,
       "borderColor": "",
       "rotation": 0,
       "style": {
