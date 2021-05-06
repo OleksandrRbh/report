@@ -6,7 +6,7 @@
   ],
   "dependencies": {
     "del": "^5.0.0",
-    "highcharts": "^7.2.1"
+    "highcharts": "^9.0.0"
   },
   "description": "report",
   "devDependencies": {
